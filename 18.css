@@ -11,6 +11,11 @@ header {
 	background: #15263e;
 }
 
+h1 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
 .navbar a {
 	color: #DBDEDE;
 	display: inline-block;
@@ -363,10 +368,20 @@ header {
 		); 
 }
 
-.exprience-section-text {
+.exprience-section {
 	color: white;
+}
+
+.exprience-section-text h4 {	
 	text-align: center;
 	padding-top: 70px;
+	font-size: 2.5rem;
+	font-weight: bold;
+	letter-spacing: 0.06;
+}
+
+.exprience-section-text h5 {
+	font-size: 1.3rem;
 }
 
 .portfolio img {
@@ -375,5 +390,15 @@ header {
 }
 
 .exp-text-small {
-	color: white;
+	padding-bottom: 40px;
 }
+
+.exp-list h5 {
+	font-size: 1.2rem;
+	letter-spacing: 0.06;
+}
+
+.exp-list h4 {
+	font-weight: bold;
+}
+
