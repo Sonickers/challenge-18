@@ -6,7 +6,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="18.css">
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
 	<title>John Smith</title>
 </head>
 <body>
@@ -14,14 +16,14 @@
 	<header>
 		<div class="container">
 			<div class="navbar navbar-expand-lg">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav mr-auto noselect">
 					<li class="nav-item"><a class="nav-link">HOME</a></li>
 					<span>-</span>
 					<li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
 					<span>-</span>
-					<li class="nav-item"><a href="#" class="nav-link">OUR SERVICES</a></li>
+					<li class="nav-item"><a href="#our-services" class="nav-link">OUR SERVICES</a></li>
 					<span>-</span>
-					<li class="nav-item"><a href="#" class="nav-link">PORTFOLIO</a></li>
+					<li class="nav-item"><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
 					<span>-</span>
 					<li class="nav-item"><a href="#" class="nav-link">EXPIERENCE</a></li>
 					<span>-</span>
@@ -33,7 +35,7 @@
 		</div>
 	</header>
 
-	<!-- This is first section - photo -->
+	<!-- This is 1 section - photo -->
 	<section class="section-1">
 		<div class="container text-center">
 			<div class="row">
@@ -48,27 +50,207 @@
 		</div>
 	</section>
 
-	<!-- This is second section - about -->
+	<!-- This is 2 section - about -->
 	<section id="about" class="section-2">
 		<div class="container-fluid">
 			<div class="row d-flex">
 				<div class="col-about">
-					<p class="john2-text">JOHN SMITH</p>
-					<p class="designer-text">WEB DESIGNER</p>
-					<p class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis debitis consequuntur mollita umenda nam obcaecati illo!</p>
+					<h2 class="john2-text">JOHN SMITH</h2>
+					<h5 class="designer-text">WEB DESIGNER</h5>
+					<h4 class="lorem-text">Lorem ipsum dolor sit amet, consectetur adipielit. Sunt sed ad possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis debitis consequuntur mollita umenda nam obcaecati illo!</h4>
 				</div>
-				<div class="col-skills" style="text-align: center; ">
-					<p class="about-text">DESIGN (80%)</p>
-					<img src="photo3.png">
-					<p class="about-text">PHOTOGRAPHY (65%)</p>
-					<img src="photo3.png">
-					<p class="about-text">MARKETING (50%)</p>
-					<img src="photo3.png">
-					<p class="about-text">BRANDING (30%)</p>
-					<img src="photo3.png">
+				<div class="col-skills align-items-center" style="text-align: center; ">
+					<p class="about-text m-0">DESIGN (80%)</p>
+					<div class="progress mb-4">
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="about-text m-0">PHOTOGRAPHY (65%)</p>
+					<div class="progress mb-4">
+						<div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="about-text m-0">MARKETING (50%)</p>
+					<div class="progress mb-4">
+						<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<p class="about-text m-0">BRANDING (30%)</p>
+					<div class="progress mb-4">
+						<div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<!-- This is 3 section - contact-info -->
+	<section id="contact-info" class="contact-info">
+		<div class="container">
+			<div class="row contact-info mb-7">
+				<div class="col-sm d-flex align-items-center">
+					<div class="icon-wrap">
+						<i class="fas fa-mobile-alt icon"></i>
+					</div>
+					<div class="text-contact-info">
+						<p class="text-contact-info p-0">PHONE NUMBER</p>	
+						<p class="m-0">+1 234 456-789</p>
+						<p>+123 456 789</p>	
+					</div>		
+				</div>
+				<div class="col-sm d-flex align-items-center">	
+					<div class="icon-wrap">
+						<i class="fas fa-map-marker-alt icon"></i>
+					</div>					
+					<div class="text-contact-info">
+						<p class="text-contact-info p-0">ADDRESS</p>
+						<p class="m-0">9, Belgium, Brussels</p>			
+						<p>Liutte 207 New York, USA </p>
+					</div>	
+				</div>
+				<div class="col-sm d-flex align-items-center">
+					<div class="icon-wrap">
+						<i class="fas fa-cogs icon"></i>
+					</div>					
+					<div class="text-contact-info">	
+						<p class="text-contact-info p-0">EMAIL ADRESS</p>	
+						<p class="m-0">johnsmith@company.com</p>
+						<p>youoffice@company.com</p>	
+					</div>		
 				</div>
 			</div>
 		</div>		
 	</section>
+
+	<!-- This is 4 section - our-services -->
+	<section id="our-services" class="our-services">
+		<div class="container cont-services">
+			<div class="our-sevices-text text-center">
+				<h1 class="mt-5">OUR SERVICES</h1>
+				<h4 class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+			</div>
+			<div class="row our-services">	
+				<div class="col-lg-4">
+					<div class="idkxD">
+						<div class="icon-wrap-service mb-3">
+							<i class="fas fa-cogs"></i>
+						</div>
+						<h3>BEST SERVICE</h3>
+						<h5>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</h5>
+					</div>
+					<div class="idkxD">
+						<div class="icon-wrap-service mb-3">
+							<i class="fas fa-rocket"></i>
+						</div>
+						<h3>BEST SERVICE</h3>
+						<h5>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</h5>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="idkxD">
+						<div class="icon-wrap-service mb-3">
+							<i class="fas fa-link"></i>
+						</div>
+						<h3>BEST SERVICE</h3>
+						<h5>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</h5>
+					</div>
+					<div class="idkxD">
+						<div class="icon-wrap-service mb-3">
+							<i class="fas fa-plug"></i>
+						</div>
+						<h3>BEST SERVICE</h3>
+						<h5>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</h5>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="idkxD">
+						<div class="icon-wrap-service mb-3">
+							<i class="fas fa-clone"></i>
+						</div>
+						<h3>BEST SERVICE</h3>
+						<h5>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</h5>
+					</div>
+					<div class="idkxD">
+						<div class="icon-wrap-service mb-3">
+							<i class="fas fa-lightbulb"></i>
+						</div>
+						<h3>BEST SERVICE</h3>
+						<h5>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- This is 5 section - Testimonials -->
+	<section id="testimonials" class="testimonials">
+		<div class="container">
+			<div class="testimonials-text">
+				<h1>TESTIMONIALS</h1>				
+			</div>
+			<div class="row">
+				<div class="col-7 testimonials-text-small">
+					<div class="box">
+						<div class="quote-wrap">
+							<i class="fas fa-quote-left"></i>
+						</div>
+						<h5>Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.Lorem ipm dolor amet, consecte adipiing lit Sunt sed ad possimus magm maiores. Ipsa dolor sit ile magnam maores.</h5>
+						<div class="quote-wrap">
+							<i class="fas fa-quote-right"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-3 testimonials-jon-info d-flex align-items-center justify-content-end">
+					<img src="photo4-face.png">
+				</div>
+				<div class="col-2 jon-info d-flex align-items-center justify-content-around">
+					<div>
+						<h2 class="jon-text">JON BROWN</h2>
+						<h5 class="graphic-text">Graphic Designer</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- This is 6 section - Portfolio -->
+	<section id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="portfolio-text mt-5 mb-5">
+				<h1>PORTFOLIO</h1>
+				<h5 class="portfolio-lorem-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			</div>
+			<div class="row">
+				<div class="col-2">
+					<ul style="list-style-type:none" class="filter-list" >
+						<li><a style="color: #C310C2" class="all-link" href="">ALL</a></li>
+						<li><a href="">PSD DESIGN</a></li>
+						<li><a href="">PRESENTATION</a></li>
+						<li><a href="">WORK IDEAS</a></li>
+						<li><a href="">LOGO</a></li>
+						<li><a href="">ICONS</a></li>
+					</ul>
+				</div>
+				<div class="col-5">
+					<img src="photo-portf-1.png">
+					<img src="photo-portf-3.png">
+					<img src="photo-portf-5.png">
+				</div>
+				<div class="col-5">
+					<img src="photo-portf-2.png">
+					<img src="photo-portf-4.png">
+					<img src="photo-portf-6.png">
+				</div>
+			</div>
+		</div>		
+	</section>
+
+	<!-- This is 7 section - Exprience -->
+	<section id="exprience" class="exprience-section">
+		<div class="container">
+		<div class="exprience-section-text mt-5">
+			<h1>EXPRIENCE</h1>
+			<h5 class="exp-text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+		</div>			
+		</div>
+	</section>
+	
 </body>
 </html>
