@@ -423,5 +423,20 @@ h1 {
 	right: -17px;
 }
 
+.blog-text {
+	padding-top: 30px;
+}
 
+.card {
+	border: none;
+	padding-right: 40px;
+}
 
+.card h5 {
+	font-weight: bold;
+}
+
+.blog-small-card-text {
+	color: #909090;
+	font-weight: bold;
+}
