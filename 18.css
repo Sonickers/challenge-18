@@ -448,25 +448,19 @@ h1 {
 
 .contact-box {
 	background-color: #16263F;
-	width: 1000px;
+	width: 900px;
 	height: 400px;
 	color: white;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-right: 250px;
-	margin-left: 250px;
-
+	margin: 0 auto;
+	padding: 0 100px;
 }
 
 .contact-box h1 {
 	padding-top: 50px;
 }
 
-.form-inline .form-control {
-    display: inline-block;
- /*   width: 290px;*/
-    vertical-align: middle;
-    border-radius: 0;
+.form-control {
+	border-radius: 0;
 }
 
 .contact-section-box {
