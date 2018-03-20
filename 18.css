@@ -369,7 +369,11 @@ h1 {
 }
 
 .exprience-section {
-	color: white;
+	color: #DCDBE0;
+}
+
+.exprience-section-text {
+	padding-top: 60px;
 }
 
 .exprience-section-text h4 {	
@@ -393,12 +397,31 @@ h1 {
 	padding-bottom: 40px;
 }
 
-.exp-list h5 {
+.exp-text-small h5 {
 	font-size: 1.2rem;
-	letter-spacing: 0.06;
 }
 
 .exp-list h4 {
 	font-weight: bold;
 }
+
+.exp-list .quote::before {
+	content: " ";
+	display: block;
+	width: 10px;
+	height: 60px;
+	background: #DCDBE0;
+	position: absolute;
+	top: 5px;
+}
+
+.exp-list .quote-left::before {
+	left: -17px;
+}
+
+.exp-list .quote-right::before {
+	right: -17px;
+}
+
+
 
